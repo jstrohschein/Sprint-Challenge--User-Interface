@@ -53,7 +53,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,8 +66,32 @@ p {
     line-height: 1.4;
 }
 
+* {
+    outline: 1px solid cyan;
+  }
+
+.nav-box {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-size: ;
+    font-family: 'Rubik', sans-serif;
+}
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 

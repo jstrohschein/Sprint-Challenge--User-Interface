@@ -36,13 +36,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  - Semantic HTML gives meaning to the content on our site. In order for web browsers, screen readers and other accessibility devices to know what's on the page, it has to be able to know what it's looking at. Semantic tags are our way of telling these devices "This is a paragraph, this is a picture of a flower, etc."
+
 2. What are the 4 areas of the box model?
+
+  - content, padding, border, and margin
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  - cross-axis
+
 4. Explain why git is valuable to a team of developers.
 
+  - git is so valuable for a number of reasons:
+    
+    - It allows for a team to work collaboratively on a project even if they are not in the same locatiion
+    - It allows for strict change management
+    - It allows for version control (i.e., if something gets messed up or broken, it can be rolled back to an previous iteration)
+
 5. Define mobile-first design in your own words.
+
+- Mobile-first design is a design strategy that emphasizes prototyping the smallest screen (i.e., a phone or tablet screen) first and then expanding out to larger screens when developing a website or an app. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,12 +64,12 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2:  Minimum Viable Product
 
