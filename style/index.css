@@ -66,9 +66,9 @@ p {
     line-height: 1.4;
 }
 
-* {
+/* * {
     outline: 1px solid cyan;
-  }
+  } */
 
 .nav-box {
     display: flex;
